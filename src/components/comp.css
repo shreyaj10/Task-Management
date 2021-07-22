@@ -1,0 +1,564 @@
+@media screen and (max-width:600px)  {
+    body{
+        background-color: rgba(233, 164, 216, 0.87);
+    }
+    .Signup{
+        box-shadow: 2px 20px 20px rgb(216, 42, 202);
+        padding-top: 22px;
+        height: 475px;
+        width: 421px;
+        border: 2px solid rgb(238, 34, 187);
+        border-radius: 10px;
+        background-color: rgb(233, 146, 214);
+        margin: auto;
+        display: block;
+    }
+    #sign{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color: black;
+    padding-left: 150px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    }
+    #username{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: rgb(223, 181, 215);
+    color: rgb(17, 1, 1);
+    box-shadow: 2px 15px 20px rgb(190, 109, 159);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+    border: pink;
+}
+.Input{
+    
+    padding:20px;
+    border-radius: 5px;
+    border-color: black;
+}
+#Email{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: rgb(223, 181, 215);
+    color: rgb(17, 1, 1);
+    box-shadow: 2px 15px 20px rgb(190, 109, 159);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+    border: pink;
+
+}
+#password{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: rgb(223, 181, 215);
+    color: rgb(17, 1, 1);
+    box-shadow: 2px 15px 20px rgb(190, 109, 159);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+    border: pink;
+}
+.btn1{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+  border: none;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 20%;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  box-shadow: 2px 15px 20px rgb(192, 108, 164);;
+  background-color: rgba(255, 255, 255, 0.281);
+  color: rgb(7, 7, 7);
+}
+.btn1:hover{
+    background-color: rgb(192, 108, 164);;
+    color: rgb(24, 23, 23);
+}
+#remark{
+    color: black;
+    text-decoration: none;
+    padding-left: 80px;
+
+}
+.createUser{
+    
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    border-radius: 10px;
+
+ }
+ #login{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color: black;
+    padding-left: 160px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+ }
+ .login{
+    box-shadow: 2px 20px 20px rgb(216, 42, 202);
+    padding-top: 22px;
+    height: 400px;
+    width: 421px;
+    border: 2px solid rgb(238, 34, 187);
+    border-radius: 10px;
+    background-color: rgb(233, 146, 214);
+    margin: auto;
+    display: block;
+ }
+ 
+ .task{
+    background-color: rgb(175, 71, 170);
+    border: 2px solid rgb(83, 5, 64);
+    align-items: center;
+    margin:auto;
+    padding: 50px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.title{
+    padding-left: 80px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+}
+.tasks{
+    display: flex;
+    width: 100px;
+}
+
+    
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width:600px) and(max-width:1440px){
+    body{
+        background-color: rgba(233, 164, 216, 0.87);
+    }
+    .Signup{
+        box-shadow: 2px 20px 20px rgb(216, 42, 202);
+        padding-top: 22px;
+        height: 475px;
+        width: 421px;
+        border: 2px solid rgb(238, 34, 187);
+        border-radius: 10px;
+        background-color: rgb(233, 146, 214);
+        margin: auto;
+        display: block;
+    }
+    #sign{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color: black;
+    padding-left: 150px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    }
+    #username{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: rgb(223, 181, 215);
+    color: rgb(17, 1, 1);
+    box-shadow: 2px 15px 20px rgb(190, 109, 159);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+    border: pink;
+}
+.Input{
+    
+    padding:20px;
+    border-radius: 5px;
+    border-color: black;
+}
+#Email{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: rgb(223, 181, 215);
+    color: rgb(17, 1, 1);
+    box-shadow: 2px 15px 20px rgb(190, 109, 159);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+    border: pink;
+
+}
+#password{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: rgb(223, 181, 215);
+    color: rgb(17, 1, 1);
+    box-shadow: 2px 15px 20px rgb(190, 109, 159);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+    border: pink;
+}
+.btn1{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+  border: none;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 20%;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  box-shadow: 2px 15px 20px rgb(192, 108, 164);;
+  background-color: rgba(255, 255, 255, 0.281);
+  color: rgb(7, 7, 7);
+}
+.btn1:hover{
+    background-color: rgb(192, 108, 164);;
+    color: rgb(24, 23, 23);
+}
+#remark{
+    color: black;
+    text-decoration: none;
+    padding-left: 80px;
+
+}
+.createUser{
+    
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    border-radius: 10px;
+
+ }
+ #login{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color: black;
+    padding-left: 160px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+ }
+ .login{
+    box-shadow: 2px 20px 20px rgb(216, 42, 202);
+    padding-top: 22px;
+    height: 400px;
+    width: 421px;
+    border: 2px solid rgb(238, 34, 187);
+    border-radius: 10px;
+    background-color: rgb(233, 146, 214);
+    margin: auto;
+    display: block;
+ }
+ 
+ .task{
+    background-color: rgb(175, 71, 170);
+    border: 2px solid rgb(83, 5, 64);
+    align-items: center;
+    margin:auto;
+    padding: 50px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.title{
+    padding-left: 80px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+}
+.tasks{
+    display: flex;
+    width: 700px;
+}
+
+    
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width:600px) {
+    body{
+        background-color: rgba(233, 164, 216, 0.87);
+    }
+    .Signup{
+        box-shadow: 2px 20px 20px rgb(216, 42, 202);
+        padding-top: 22px;
+        height: 475px;
+        width: 421px;
+        border: 2px solid rgb(238, 34, 187);
+        border-radius: 10px;
+        background-color: rgb(233, 146, 214);
+        margin: auto;
+        display: block;
+    }
+    #sign{
+        font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color: black;
+    padding-left: 150px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    }
+    #username{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: rgb(223, 181, 215);
+    color: rgb(17, 1, 1);
+    box-shadow: 2px 15px 20px rgb(190, 109, 159);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+    border: pink;
+}
+.Input{
+    
+    padding:20px;
+    border-radius: 5px;
+    border-color: black;
+}
+#Email{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: rgb(223, 181, 215);
+    color: rgb(17, 1, 1);
+    box-shadow: 2px 15px 20px rgb(190, 109, 159);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+    border: pink;
+
+}
+#password{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    background-color: rgb(223, 181, 215);
+    color: rgb(17, 1, 1);
+    box-shadow: 2px 15px 20px rgb(190, 109, 159);
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+    border: pink;
+}
+.btn1{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+  border: none;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 20%;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  box-shadow: 2px 15px 20px rgb(192, 108, 164);;
+  background-color: rgba(255, 255, 255, 0.281);
+  color: rgb(7, 7, 7);
+}
+.btn1:hover{
+    background-color: rgb(192, 108, 164);;
+    color: rgb(24, 23, 23);
+}
+#remark{
+    color: black;
+    text-decoration: none;
+    padding-left: 80px;
+
+}
+.createUser{
+    
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    border-radius: 10px;
+
+ }
+ #login{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color: black;
+    padding-left: 160px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+ }
+ .login{
+    box-shadow: 2px 20px 20px rgb(216, 42, 202);
+    padding-top: 22px;
+    height: 400px;
+    width: 421px;
+    border: 2px solid rgb(238, 34, 187);
+    border-radius: 10px;
+    background-color: rgb(233, 146, 214);
+    margin: auto;
+    display: block;
+ }
+ 
+ .task{
+    background-color: rgb(236, 174, 233);
+    border: 4px solid rgb(10, 9, 10);
+    align-items: center;
+    border-radius: 20px;
+    margin:auto;
+    padding:10px;
+    padding-left: 15px;
+    border-collapse: separate;
+    width: 300px;
+    margin-bottom: 10px;
+    box-shadow:  2px 20px 20px rgb(167, 111, 167);
+}
+.title{
+    padding-top: 2px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 30px;
+}
+.tasks{
+    background-color: rgb(175, 71, 170);
+    border-radius: 20px;
+    width: 600px;
+    margin:auto;
+    border-collapse: separate;
+}
+.desc{
+    font-size: 20px;
+    font-family: 'Otomanopee One', sans-serif;
+    
+}
+#name{
+    padding-left: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
+    font-size: 30px;
+}
+.format{
+    display: flex;
+}
+.button{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 30px;
+    background-color: rgb(236, 174, 233);
+    border:2px solid black;
+    border-radius: 10px;
+    
+}
+.links{
+      margin-right: 20px;
+      text-decoration: none;
+     
+    }
+.link{
+        text-decoration: none;
+        
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+.createAPost{
+    padding-left: 5px;
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+    padding-top: 2px;
+
+}
+.createPost{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 50px;
+  
+    /* justify-content:center; */
+    align-items: center;
+}
+.container1{
+    box-shadow:  2px 20px 20px rgb(167, 111, 167);
+    border: 2px solid black;
+    height: 600px;
+    width: 421px;
+    border-radius: 10px;
+    background-color: rgb(207, 100, 202);
+    margin: auto;
+    display: block;
+}
+#title1{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: rgb(236, 174, 233);
+    color: rgb(0, 0, 0);
+    border:2px solid black;
+    padding:10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    outline: none;
+}
+#content1{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: rgb(236, 174, 233);
+    color: rgb(0, 0, 0);
+    border:2px solid black;
+    padding:10px;
+    padding-top:20px;
+    border-radius: 10px;
+    width: 375px;
+    height: 150px;
+    outline: none;
+}
+#title5{
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+#content5{
+    padding-left: 5px;
+    padding-bottom: 30px;
+}
+#postBtn{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+  border: 2px solid black;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 20%;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  box-shadow: 2px 15px 20px rgb(156, 62, 152);;
+  background-color: rgb(228, 35, 154);
+  color: rgb(8, 8, 8);
+}
+#postBtn:hover{
+    background-color: white;
+    color: black;
+}
+}
