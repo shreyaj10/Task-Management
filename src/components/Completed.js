@@ -32,7 +32,7 @@ function Completed() {
     
     let token=localStorage.getItem('token');
     if(token){
-        axios.post('http://localhost:3001/auth', {token:token})
+        axios.post('https://task-management-web1.herokuapp.com/auth', {token:token})
         .then(res=>{
             if(res.data===false){
                 history.push('/login')

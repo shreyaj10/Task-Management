@@ -38,7 +38,7 @@ function SignUp() {
 
         }
         console.log(newUser)
-        axios.post("http://localhost:3001/signup", newUser)
+        axios.post("https://task-management-web1.herokuapp.com/signup", newUser)
             .then(async (res) =>{
                 const data = await res.data;
 

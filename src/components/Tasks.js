@@ -39,7 +39,7 @@ function Tasks() {
 
 }])
     useEffect(() => {
-        fetch('./tasks').then(res=>{
+        fetch('https://task-management-web1.herokuapp.com/tasks').then(res=>{
             if (res.ok){
                 return res.json()
             }
@@ -48,7 +48,7 @@ function Tasks() {
     
     let token=localStorage.getItem('token');
     if(token){
-        axios.post('./auth', {token:token})
+        axios.post('https://task-management-web1.herokuapp.com/auth', {token:token})
         .then(res=>{
             if(res.data===false){
                 history.push('/login')
@@ -67,7 +67,7 @@ const handleDelete=(task)=>{
   let comObj={
     id:task._id
   }
-  axios.post("htpp://localhost:3001/delete", comObj)
+  axios.post("https://task-management-web1.herokuapp.com/delete", comObj)
   .then(res=>{
     console.log(res)
   }).catch(err=>{
@@ -81,7 +81,7 @@ const handleClick=(task)=>{
     id:task._id
   }
   setmsg("completed!")
-  axios.post("http://localhost:3001/complete", comObj)
+  axios.post("https://task-management-web1.herokuapp.com/complete", comObj)
   .then(res=>{
     console.log(res)
 })

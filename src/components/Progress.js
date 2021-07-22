@@ -20,7 +20,7 @@ function Progress() {
        
 
     useEffect(() => {
-        fetch('./tasks').then(res=>{
+        fetch('https://task-management-web1.herokuapp.com/tasks').then(res=>{
             if (res.ok){
                 return res.json()
             }
@@ -65,7 +65,7 @@ function Progress() {
     
     let token=localStorage.getItem('token');
     if(token){
-        axios.post('./auth', {token:token})
+        axios.post('https://task-management-web1.herokuapp.com/auth', {token:token})
         .then(res=>{
             if(res.data===false){
                 history.push('/login')

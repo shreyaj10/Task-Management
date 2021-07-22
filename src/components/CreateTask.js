@@ -30,7 +30,7 @@ function CreateTask() {
     useEffect(() => {
         let token=localStorage.getItem("token")
         if (token){
-            axios.post("http://localhost:3001/auth", {token:token})
+            axios.post("https://task-management-web1.herokuapp.com/auth", {token:token})
             .then(res=>{
                 if(res.data===false){
                     history.push("/login")
@@ -61,7 +61,7 @@ function CreateTask() {
 
         }
         console.log(newTask)
-        axios.post("http://localhost:3001/createTask", newTask)
+        axios.post("https://task-management-web1.herokuapp.com/createTask", newTask)
         .then(result => {
             console.log("done");
         })
