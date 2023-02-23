@@ -1,8 +1,9 @@
 # Task Tracker
-Task Tracker is a fully responsive CRUD productivity app built in MERN stack
-compatible with all devices. It allows users to create, track and complete
-their tasks in time. The priority and reschedule feature makes the app really
-unique and useful. Built with ReactJS, NodeJS, ExpressJS and MongoDB and is equipped with JWT authentication.
+Task Tracker is a MERN stack application that is fully responsive and supports CRUD operations, making it compatible with all devices. 
+
+The app is designed to enhance productivity and enables users to create, track, and complete their tasks on time. The app's unique and useful features include priority and rescheduling capabilities.
+
+Task Tracker is developed using React.js, Node.js, Express.js, and MongoDB, and it comes equipped with JWT authentication to ensure secure access.
 
 Frontend is deployed on Netlify and
 backend is deployed on Heroku (Discontinued).
